@@ -1,0 +1,116 @@
+/*
+Theme Name: WP Bootstrap
+Theme URI: http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial
+Description: A demo theme built to accompany the Treehouse blog post <a href="http://teamtreehouse.com/wordpress-bootstrap-theme-tutorial">How to Build a WordPress Theme with Bootstrap</a>.
+Author: Zac Gordon
+Author URI: http://teamtreehouse.com/
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This simple theme was built using the example Bootstrap theme "Basic marketing site" found on the Bootstrap web site http://twitter.github.com/bootstrap/examples/hero.html
+*/
+
+@import url('bootstrap/css/bootstrap.css'); 
+@import url('bootstrap/css/bootstrap-responsive.css'); 
+@import url(http://fonts.googleapis.com/earlyaccess/notosansethiopic.css);
+
+html {
+	background-image: url(images/kids.JPG); 
+}
+
+body { 
+     width: 96%;
+	margin: 0 auto;  
+}
+
+header {
+width: 100%; 
+}
+
+#background {
+width:100%;
+}
+
+#background  img {
+width: 100%;
+
+}
+
+div.container a.brand {
+display: none;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+/* position: fixed; */
+right: 0;
+left: 0;
+z-index: 1030;
+margin-bottom: 0;
+}
+
+.navbar-inverse .brand, .navbar-inverse .nav > li > a {
+color: #999999; 
+font-size: 1.5em;
+}
+
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner {
+border-width: 0;
+}
+
+/*div#flexslider{
+	width:50%;  
+
+	margin-bottom:20px;
+	Text-align: center;
+}
+img.flexslider
+{
+	width:100%;
+}*/
+
+.container-fluid { 
+	margin-top: 2%;
+}
+
+.span4 h2 {
+	font-family: Indie Flower, serif;
+	text-align: center;
+}
+
+
+.hero-unit {
+	padding:2%;
+}
+
+ 
+.hero-unit h1 {
+	font-family: Lobster, serif;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #ccc;
+	margin-left: -10px;
+}
+
+footer2 {
+	background-color: #fff;
+	margin-left: -10px;
+}
+
+.footer.col-lg-3.col-md-3.col-sm-6 > li {
+	display: inline-flex;
+	margin-right: 120px;
+}
+
+h3.widget-title {
+	display: none;
+}
+
+footer2 p {
+	text-align: center;
+}
+
